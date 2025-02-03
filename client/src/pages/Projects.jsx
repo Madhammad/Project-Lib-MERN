@@ -160,7 +160,7 @@ export function Projects() {
                       {proj.description}
                     </p>
                     <img
-                      src={proj.projectImage.secure_url}
+                      src={proj?.projectImage?.secure_url}
                       alt="post cover"
                       className="w-full h-60 object-cover rounded-md mb-4"
                     />

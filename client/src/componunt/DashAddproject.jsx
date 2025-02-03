@@ -239,7 +239,7 @@ export default function DashAddproject() {
         />
 
         <button type="submit" className="mt-2">
-          <ButtonCom text={"Update Project"} />
+          <ButtonCom text={"Add Project"} />
         </button>
       </form>
 
