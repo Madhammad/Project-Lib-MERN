@@ -191,7 +191,7 @@ export default function DashOverview() {
             <span className="font-bold">{currentUser.username}!</span>
           </div>
 
-          <div className="mt-5 flex md:flex-row-reverse flex-col  w-full rounded-3xl bg-indigo-500 dark:bg-indigo-950 p-3 items-center  justify-between md:h-40 md:gap-20">
+          <div className="mt-5 flex md:flex-row-reverse flex-col  md:w-full w-[95%] rounded-3xl bg-indigo-500 dark:bg-indigo-950 p-3 items-center  justify-between md:h-40 md:gap-20">
             <div className=" md:h-36  ">
               <img
                 className="rounded-3xl h-full w-full"

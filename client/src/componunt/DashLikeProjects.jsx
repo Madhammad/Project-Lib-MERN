@@ -118,7 +118,7 @@ export function DashLikeProjects() {
                   >
                     <td className="p-2  w-16 h-16">
                       <img
-                        src={proj.projectImage.secure_url}
+                        src={proj?.projectImage?.secure_url}
                         alt="Project Avatar"
                         className="w-full h-full object-cover rounded-full"
                       />
@@ -142,7 +142,7 @@ export function DashLikeProjects() {
                     </td>
                     <td className="px-4 py-2">
                       <Link
-                        to={`/users/${proj.createdBy._id}`}
+                        to={`/user/${proj.createdBy._id}`}
                         className="text-cyan-600 hover:underline dark:text-cyan-500"
                       >
                         {proj.createdBy.username}

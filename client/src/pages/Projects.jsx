@@ -52,10 +52,7 @@ export function Projects() {
               Projects for Web Developers for learners & Students
             </h1>
             <p className="basis-[60%] bg-slate-700 text-slate-700 h-full rounded-lg ">
-              Get projects for pretice form all over the world which hence your
-              web skills. You're honing your skills in JavaScript, React, or
-              full-stack MERN development, and connect with a community of
-              like-minded tech enthusiasts.
+             
             </p>
           </div>
 

@@ -119,7 +119,7 @@ export function DashUser() {
           <div className="md:p-3 p-5 basis-[70%]">
             <div className=" ounded-xl bg-indigo-300  dark:bg-indigo-950 p-2 ">
               <div className="flex flex-col md:flex-row   ">
-                <div className="d:basis-[20%]  h-44  md:border-r-2 border-gray-300 dark:border-gray-600 p-2 ">
+                <div className="md:basis-[20%]  h-44  md:border-r-2 border-gray-300 dark:border-gray-600 p-2 ">
                   <img
                     src={user?.profileImage?.secure_url}
                     alt=""
